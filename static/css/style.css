@@ -1,0 +1,33 @@
+body {
+    font-family: 'Segoe UI', sans-serif;
+}
+
+.card {
+    border-radius: 1rem;
+}
+
+.btn-primary {
+    font-weight: bold;
+    font-size: 1.1rem;
+}
+
+input.form-control {
+    border-radius: 0.5rem;
+}
+
+.rounded-lg {
+    border-radius: 1rem !important;
+}
+.animated {
+    animation-duration: 1s;
+    animation-fill-mode: both;
+}
+
+.fadeIn {
+    animation-name: fadeIn;
+}
+
+@keyframes fadeIn {
+    from { opacity: 0; transform: translateY(20px);}
+    to { opacity: 1; transform: translateY(0);}
+}
